@@ -1,16 +1,37 @@
 html{
     text-align: center;
     position: relative;
-    top: 30%;
-    background-color: aqua;
-}
-#email-container span.label-text{
-    margin-top: -10px;
+    top: 26%;
+    background-color: black;
+    font-size: large;
+    font-family: Calibri;
 }
 #container{
-    background-color: green;
-    height: 180px;
+    background-color: lightblue;
+    height: 340px;
+    margin: 0 auto;
+    width: 700px;
+    border-image: linear-gradient(to right, white, red) 1;
+    border: 10px solid;
+    border-radius: 45px;
 }
 .Input{
     height: 16px;
+}
+#log-In{
+    width: 250px;
+    height: 30px;
+    background-color: red;
+    border-color: red;
+    border-radius: 16px;
+}
+.email{
+    margin-left: -58px;
+}
+.password{
+    margin-left: -96px;
+}
+#forgotPassword{
+    margin-left: -55px;
+    font-size: 12px;
 }

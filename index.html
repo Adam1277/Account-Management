@@ -6,23 +6,25 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css"/>
     <script src="./js/main.js"></script>
 </head>
+<div class="gradient"></div>
 <body>
     <div id="container">
-        <h1>Welcome to the Employee management system</h1>
+        <h1>Welcome to the Employee Management System</h1>
+        <div id="error"></div>
         <h2>Please enter your credentials below</h2>
-        <div id="email-container">
-            <span class="label-text">Email Address:</span>
+
+            <div class="email">Email Address:</div>
             <label>
-                <textarea placeholder="example@gmail.com" class="Input"></textarea>
-            </label><br>
-        </div>
-        <div id="password-container">
-            Password:
+                <input type="email" placeholder="example@gmail.com" id="email-login"/>
+            </label>
+
+            <div class="password">Password:</div>
             <label>
-                <textarea placeholder="example2000$$%^&" class="Input"></textarea>
+                <input type="password" placeholder="example2000#$%^" id="password-login"/>
             </label><br>
-            <a href="">Forgot your password?</a>
-        </div>
+
+            <a href="newPassword.html" id="forgotPassword" >Forgot your password?</a><br><br>
+            <button id="log-In" onclick="logIn()">Log in</button>
     </div>
 </body>
 </html>
