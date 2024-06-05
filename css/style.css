@@ -1,0 +1,16 @@
+html{
+    text-align: center;
+    position: relative;
+    top: 30%;
+    background-color: aqua;
+}
+#email-container span.label-text{
+    margin-top: -10px;
+}
+#container{
+    background-color: green;
+    height: 180px;
+}
+.Input{
+    height: 16px;
+}
