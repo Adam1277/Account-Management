@@ -1,2 +1,2 @@
-# Account-Management
-Custom and aesthetic account management system
+# Busget management system
+User specific and encrepted login information and financials. For tracking spending and usage of funds monthly.
